@@ -111,7 +111,7 @@ public class SelectAllDataById {
 		                System.out.println("----- Employee Details -----");
 		                System.out.println("ID     : " + rs.getInt("id"));
 		                System.out.println("Name   : " + rs.getString("name"));
-		                System.out.println("Mobile : " + rs.getString("mobile"));
+		                System.out.println("Mobile : " + rs.getString("mob"));
 		                // agar aur columns hain to yahan add kar sakta hai
 		                // System.out.println("City   : " + rs.getString("city"));
 		            } else {
